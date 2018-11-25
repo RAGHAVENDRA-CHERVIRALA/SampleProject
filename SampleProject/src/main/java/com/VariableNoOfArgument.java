@@ -38,5 +38,15 @@ public class VariableNoOfArgument {
 		}
 		System.out.println("Sum of Numbers is:"+sum);
 	}
+	
+	public static void multipleOfNumbers(int ... w)
+	{
+		int mul=1;
+		for(int q:w)
+		{
+			mul=mul*q;
+		}
+		System.out.println("multiple of numbers is:"+mul);
+	}
 
 }
